@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Omar car store</h1>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="car-details">
+            <h2>B M W car</h2>
+            <div class="car-gallery">
+                <img src="image/B M W0.jpg" alt="car">
+            </div>
+            <div class="car-info">
+                <p><strong>الموديل :</strong>2023</p>
+                <p><strong>اللون :</strong>ازرق</p>
+                <p><strong>السعر :</strong>$1,500,000</p>
+                <button onclick="showNextImage()">الصورة التالية</button>
+            </div>
+            <div class="offer-section">
+                <label for="user-offer">عرض السعر:</label>
+                <input type="text" id="user-offer" placeholder="ادخل عرضك">
+                <button onclick="submitOffer()">تقديم العرض</button>
+            </div>
+        </div>
+    </main>
+
+    <main class="container">
+        <div class="car-details">
+            <h2>Range Rover car</h2>
+            <div class="car-gallery">
+                <img src="image/Range Rover.jpg" alt="car">
+            </div>
+            <div class="car-info">
+                <p><strong>الموديل :</strong>2021</p>
+                <p><strong>اللون :</strong>ابيض</p>
+                <p><strong>السعر :</strong>$2,655,000</p>
+                <button onclick="showNextImage()">الصورة التالية</button>
+            </div>
+            <div class="offer-section">
+                <label for="user-offer">عرض السعر:</label>
+                <input type="text" id="user-offer" placeholder="ادخل عرضك">
+                <button onclick="submitOffer()">تقديم العرض</button>
+            </div>
+        </div>
+    </main>
+
+    <main class="container">
+        <div class="car-details">
+            <h2>hyundai car</h2>
+            <div class="car-gallery">
+                <img src="image/hyundai.jpg" alt="car">
+            </div>
+            <div class="car-info">
+                <p><strong>الموديل :</strong>2018</p>
+                <p><strong>اللون :</strong>ابيض</p>
+                <p><strong>السعر :</strong>$840,500</p>
+                <button onclick="showNextImage()">الصورة التالية</button>
+            </div>
+            <div class="offer-section">
+                <label for="user-offer">عرض السعر:</label>
+                <input type="text" id="user-offer" placeholder="ادخل عرضك">
+                <button onclick="submitOffer()">تقديم العرض</button>
+            </div>
+        </div>
+    </main>
+
+    <script src="main.js"></script>
+</body>
+</html>
